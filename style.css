@@ -1,0 +1,353 @@
+body{
+	font-family: 'Avenir LT Std 55 Roman', 'Avenir LT Std 55 Oblique', 'Avenir LT Std 85 Heavy';
+  margin: 0px;
+}
+/*SIGNUP CSS*/
+        
+.row-signup{
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card-image-holder {
+  width: 360px;
+  height: 640px;
+  display: inline-block;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid #E3CC1B;
+  overflow: hidden;
+}
+.card-form{
+  width: 360px;
+  height: 640px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 1px solid #E3CC1B;
+}
+.signup-image img.background{
+  object-fit: contain;
+  object-position: -580px;
+  height: 100%;
+
+}
+.signup-image{
+ position: relative;
+ height: 100%;
+}
+.signup-pitch{
+	position: absolute; 
+ top: 0; 
+ background: #E3CC1B; 
+ width: 100%;
+ opacity:0.7;
+ color: white;
+ font-size: 20px;
+ text-align: center;
+ height: 640px;
+}
+.signup-pitch img{
+	
+  height: 90px;
+  margin-top: 80px;
+  
+}
+.pitch{
+	font-size: 24px;
+	color: #545454;
+	line-height: 35px;
+	padding: 0px 20px;
+	text-align: left;
+}
+.logo-title{
+  font-size: 30px;
+  padding-top: 80px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #5a5a5a;
+  text-align: center;
+}
+.column.signup img.logo {
+  display: none;
+}
+.input-container{
+  margin: 20px 40px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #E3CC1B;
+}
+input.input-field:focus {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input.input-field{
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 2px 0 0 9px;
+}
+.input-field::placeholder{
+  font-weight: 300;
+  font-size: 16px;
+  color: #a3a3a3;
+}
+.icon-user {
+  width: 25px;
+  height: 13px;
+  padding-top: 16px;
+  padding-left: 12px;
+}
+.input-icon {
+  color: #545454;
+  width: 18px;
+  height: 18px;
+  padding-top: 13px;
+  padding-left: 12px;
+}
+.btn-join{
+  margin-bottom: 10px;
+  margin-left: 42px;
+  width: 282px;
+  height: 45px;
+  border-radius: 5px;
+  border: transparent;
+  background: #E3CC1B;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  font-weight: bold;   
+  font-size: 16px;
+  color: #5a5a5a;
+}
+.btn-facebook{
+  margin-bottom: 10px;
+  margin-left: 42px;
+  width: 282px;
+  height: 45px;
+  border-radius: 5px;
+  border: transparent;
+  background: #3C5A99;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  font-weight: bold;   
+  font-size: 16px;
+  color: #ffffff;
+}
+.btn-google{
+  margin-left: 42px;
+  width: 282px;
+  height: 45px;
+  border-radius: 5px;
+  border: transparent;
+  background: #DC4B3E;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  font-weight: bold;   
+  font-size: 16px;
+  color: #ffffff;
+}
+.login-message{
+  padding-top: 26px;
+  text-align: center;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+/*Lost/Found CSS*/
+.card-menu {
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+}
+.card-menu li a{
+  background-color: #ffffff;
+  color: #545454;
+  display: block;
+  padding: 48px 0 0 38px;
+  text-decoration: none;
+  font-size: 32px;
+}
+.column-form{
+  width: 70%;
+  padding-left: 25%;
+  margin-top: 3%;
+}
+.card-menu li{
+  list-style: none;
+}
+.card-menu li a img{
+  padding-right: 20px;
+}
+.card-menu li.logout{
+  position: absolute;
+  bottom: 20px;
+}
+.column-menu {
+  width: 20%;
+  min-width: 280px;
+  position: fixed;
+  top: 0;
+}
+.menu-logo{
+  height: 90px;
+  text-align: center;
+  display: block;
+  margin: 32px auto;
+}
+.icon-menu{
+  width: 32px;
+  height: 32px;
+}
+.card-menu a.active {
+  background: rgba(233, 214, 73, 0.2);
+  color: #545454;
+  padding-bottom: 6px;
+  height: 50px;
+  padding-top: 21px;
+}
+.card-menu li.pt{
+  padding-top: 42px;
+}
+.card-form-lost{
+  background-color: #ffffff;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 110px rgba(161, 161, 161, 0.15);
+  border-radius: 5px;
+}
+.input-width {
+  width: 45%;
+  display: inline-block;
+  margin: 10px;
+}
+.input-container-lost{
+  width: 100%;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #E3CC1B;
+}
+.logo-title-lost{
+  font-size: 32px;
+  padding-top: 39px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-left: 41px;
+  color: #5a5a5a;
+  text-align: center;
+}
+input.icon-field:focus {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input.icon-field{
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 2px 0 0 18px;
+}
+select.dropdown:focus {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+select.dropdown{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+select{
+  font-family: 'Avenir LT Std 55 Roman';
+  font-size: 16px;
+  padding: 15px 154px 15px 30px;
+  
+  color: #a3a3a3;
+}
+textarea{
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Avenir LT Std 55 Roman';
+  font-size: 16px;
+  color: #a3a3a3;
+  width: 90%;
+  padding: 10px;
+}
+.input-container-lost-content{
+  width: 92%;
+  height: 89px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px solid #E3CC1B;
+
+}
+.icon-field::placeholder{
+
+  font-weight: 300;
+  font-size: 16px;
+  color: #a3a3a3;
+}
+.icon-lost-form{
+  height: 18px;
+  width: 18px;
+  padding-top: 12px;
+  padding-left: 22px;
+}
+.title-lost-owner{
+  font-size: 32px;
+  padding-top: 18px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #5a5a5a;
+  text-align: center;
+}
+.btn-find{
+  margin: 20px auto;
+  width: 280px;
+  display: block;
+  height: 45px;
+  border-radius: 5px;
+  border: transparent;
+  background: #E3CC1B;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  font-weight: bold;   
+  font-size: 16px;
+  color: #5a5a5a;
+}
+hr{
+  color: #EEE;
+  margin: 20px 0;
+}
+@media screen and (max-width: 1100px) {
+  .column-menu {
+    min-width: 120px;
+    width: auto;
+  }
+  .column-form {
+    width: 85%;
+    padding: 150px;
+  }
+  .card-menu li a span {
+    display: none;
+  }
+  .input-width {
+    width: 95%;
+  }
+  .column.overlay {
+    display: none;
+  }
+  .column.signup img.logo {
+    display: block;
+    height: 40px;
+    margin: 20px auto;
+  }
+}
